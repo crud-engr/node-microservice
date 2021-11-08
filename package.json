@@ -1,0 +1,37 @@
+{
+  "name": "microservice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start:dev": "nodemon app.js",
+    "start:prod": "cross-env NODE_ENV=production node app.js",
+    "test": "node app.js mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crud-engr/node-microservice.git"
+  },
+  "author": "Abeeb Ayinla",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/crud-engr/node-microservice/issues"
+  },
+  "homepage": "https://github.com/crud-engr/node-microservice#readme",
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "dotenv": "^10.0.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.14"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "fast-json-patch": "^3.1.0",
+    "image-downloader": "^4.0.3",
+    "joi": "^17.4.2",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "sharp": "^0.29.2"
+  }
+}
