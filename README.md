@@ -69,11 +69,11 @@ $ npm test
 # Run the docker container of the app. It runs on port 4000 (http://localhost:4000)
 $ docker run -it -p 4000:3000 node-microservice (locally)
 ```
-You can pull the docker image [here](https://hub.docker.com/r/crudengr/node-microservice)
+You can pull the docker image on DockerHub [here](https://hub.docker.com/r/crudengr/node-microservice)
 
 ## Logging Activities
 
 ```bash
 # All request activities
-$ All logs are stored in request-activiries.log in app root.
+$ All logs are stored in request-activities.log in app root.
 ```
