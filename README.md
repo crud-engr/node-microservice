@@ -3,7 +3,9 @@
 A Nodejs microservice with three main features
 
  **1.** Authentication with JWT
+
  **2.** JSON patch Object
+ 
  **3.** Thumbnail Creation
 
 ### Take a look at the live github document
