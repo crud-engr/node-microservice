@@ -6,6 +6,9 @@ A Nodejs microservice with three main features
  **2.** JSON patch Object
  **3.** Thumbnail Creation
 
+### Take a look at the live github document
+Hosted on [Github](https://crud-engr.github.io/node-microservice/)
+
 ## This project was built with
 
  **1.** [NodeJS](https://nodejs.org)
