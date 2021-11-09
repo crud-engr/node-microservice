@@ -5,11 +5,10 @@ A Nodejs microservice with three main features
  **1.** Authentication with JWT
 
  **2.** JSON patch Object
- 
+
  **3.** Thumbnail Creation
 
-### Take a look at the live github document
-Hosted on [Github](https://crud-engr.github.io/node-microservice/)
+#### Take a look at the hosted github link [Here](https://crud-engr.github.io/node-microservice/)
 
 ## This project was built with
 
