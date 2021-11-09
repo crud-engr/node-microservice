@@ -70,7 +70,7 @@ $ npm test
 
 ```bash
 # Run the docker container of the app. It runs on port 4000 (http://localhost:4000)
-$ docker run -it -p 4000:3000 node-microservice (locally)
+$ docker run -it -p 4000:3000 node-microservice
 ```
 You can pull the docker image on DockerHub [here](https://hub.docker.com/r/crudengr/node-microservice)
 
