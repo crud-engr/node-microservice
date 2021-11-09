@@ -12,8 +12,11 @@ Hosted on [Github](https://crud-engr.github.io/node-microservice/)
 ## This project was built with
 
  **1.** [NodeJS](https://nodejs.org)
+
  **2.** [ExpressJS](https://expressjs.com/)
+
  **3.** [Mocha](https://mochajs.org/)
+
  **4.** [Docker](https://www.docker.com/get-started)
 
 ## Description on how to run this project
