@@ -4,9 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start:dev": "nodemon app.js",
-    "start:prod": "cross-env NODE_ENV=production node app.js",
-    "test": "node app.js mocha"
+    "start": "nodemon app.js",
+    "test": "nyc --reporter=lcov --reporter=text mocha"
   },
   "repository": {
     "type": "git",
@@ -19,10 +18,21 @@
   },
   "homepage": "https://github.com/crud-engr/node-microservice#readme",
   "devDependencies": {
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
     "cross-env": "^7.0.3",
     "dotenv": "^10.0.0",
+    "eslint": "^8.2.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "mocha": "^9.1.3",
     "morgan": "^1.10.0",
-    "nodemon": "^2.0.14"
+    "nodemon": "^2.0.14",
+    "nyc": "^15.1.0",
+    "prettier": "^2.4.1"
   },
   "dependencies": {
     "cors": "^2.8.5",
@@ -32,6 +42,8 @@
     "joi": "^17.4.2",
     "jsonwebtoken": "^8.5.1",
     "moment": "^2.29.1",
-    "sharp": "^0.29.2"
+    "sharp": "^0.29.2",
+    "swagger-jsdoc": "^6.1.0",
+    "swagger-ui-express": "^4.1.6"
   }
 }
